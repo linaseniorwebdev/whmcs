@@ -1,0 +1,475 @@
+/*
+ * jQuery UI Slider 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+.slider-container {
+	float: left;
+	width: 100%;
+	
+
+	padding:70px 40px;
+	position:relative;
+	text-align:center;
+}
+.slider-container h3 {
+	margin:0 0 10px;
+	padding:0;
+	color:#000;
+	font-size:30px;
+	line-height:30px;
+	font-weight:normal;
+}
+.slider-container h3 span {
+	color:#ff9226;
+	font-weight:700;
+}
+.slider-container p {
+	margin:0;
+	padding:0;
+}
+.sliderbox {
+	display:inline-block;
+	width: 91.75%;
+	margin:0;
+}
+div#icon-0 {
+    margin-left: 70px;
+}
+
+.slider-container #slider {
+	margin:0 auto 27px;
+	width: 100%;
+	height: 40px;
+	padding: 0;
+	border: 0;
+	
+		background:url(../images/bar.png) no-repeat center;
+	
+}
+
+
+
+
+.slider-container #slider .ui-slider-range {
+	background:#57be89;
+	border-radius:32px;
+	height:22px !important;
+}
+.slider-container #slider .ui-slider-handle {
+	outline: none;
+	background:url(../images/slider_button.png) no-repeat left top;
+	border-radius: 0;
+	border: 0;
+	width: 36px;
+	height: 36px;
+	margin:-1px 0  0 -28px;
+	
+}
+.slider-container #slider .ui-slider-handle:hover {
+	cursor: pointer;
+}
+.price_rangetxt {
+	margin:0 auto 42px;
+	width:100%;
+	padding:0;
+}
+/*.price_rangetxt div.icon {
+	display:inline-block;
+	height:44px;
+	color:#3d494f;
+	margin:0 16% 0 0;
+	font-size:16px;
+	line-height:23px;
+	cursor: pointer;
+	font-weight:500;
+	background:url(../images/vps-image1.png) no-repeat center top;
+	text-transform:uppercase;
+}*/
+.price_rangetxt div.icon {
+	display:inline-block;
+	margin:0 18% 0 0;
+			font-weight:500;
+			text-transform:uppercase;
+				cursor: pointer;
+	}
+
+
+.slider_bg {
+	background:#1a2028;
+		
+			
+	
+	
+	}
+
+
+
+.price_rangetxt div.icon:last-child{
+	margin-right:0px;
+}
+.price_rangetxt div.icon span{
+	margin:10px 0 0  0;
+	display:block;
+	font-family: 'proxima_novasemibold';
+	color:#fff;
+	position:relative;
+}
+
+
+
+.price_content {
+	margin:0 auto;
+	width:100%;
+	float:left;
+	text-align:center;
+	font-size:15px;
+}
+.price_content .smallbox {
+	float:left;
+	width:15.8%;
+	padding:27px 0 25px 0;
+	margin:0 3% 0 0;
+	
+}
+.price_content .image_holder {
+	display:table;
+	
+	width:100%;
+}
+.price_content .image_holder span {
+	vertical-align:middle;
+	display:table-cell;
+}
+.price_content .value_text {
+	display:inline-block;
+	width:100%;
+	padding:0px 0;
+	color:#fff;
+	font-size:17px;
+	line-height:17px;
+	 font-family: 'proxima_novasemibold';
+}
+
+.slider_text {
+	padding:14px 0 0 0;
+	color:#fff;
+	font-family: 'proxima_novasemibold';
+	}
+.price_content .value {
+	color:#fff;
+	line-height:17px;
+	line-height:17px;
+}
+.price_content .smallbox2 {
+	float:right;
+	padding:25px 2% 20px;
+	margin:0px;
+	width:24.8%;
+	min-height:150px;
+}
+.price_txt {
+	float:left;
+	width:100%;
+	color:#fff;
+	font-size:34px;
+	line-height:34px;
+	font-family: 'proxima_nova_rgregular';
+	padding:0 0 15px 0;
+}
+.price_txt .dollar {
+	line-height:48px;
+	font-size:48px;
+}
+.price_txt .numeric1 {
+	line-height:48px;
+	font-size:48px;
+	font-family: 'proxima_nova_rgregular';
+}
+.vps_btn {
+	display:inline-block;
+	width:100%;
+	height:42px;
+}
+.vps_btn a {
+	color:#fff;
+	display:block;
+	font-size:16px;
+	line-height:50px;
+	background:#0d79c2;
+	text-decoration:none;
+	font-weight:400;
+	text-transform:uppercase;
+	font-family: 'proxima_nova_rgbold';
+	border-radius:4px;
+}
+.vps_btn a:hover {
+	opacity:0.8;
+}
+
+
+
+
+@media screen and (max-width: 1199px) { 
+
+.slider-container #slider {
+    margin: 0 auto 27px;
+    width: 100% !important;
+    height: 22px;
+    padding: 0;
+    border: 0;
+	background:#414b59;
+	border-radius:32px;
+    
+	}
+.price_rangetxt div.icon {
+    display: inline-block;
+    margin: 0 15% 0 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.slider-container {
+	padding:70px  0;
+	}
+
+.price_txt {
+	font-size: 30px;
+    line-height: 30px;
+	
+	}
+	.price_txt .numeric1 {
+    line-height: 40px;
+    font-size: 40px;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.price_rangetxt div.icon {
+		margin:0 16% 0 0;
+		
+		}
+}
+
+@media screen and (max-width: 991px) {
+.price_rangetxt div.icon {
+    margin: 0px 11% 0 0;
+}
+.price_content .smallbox {
+	    width: 17%;
+		margin:0 2% 0 0;
+	
+	}
+	.price_txt {
+    font-size: 24px;
+    line-height: 24px;
+}
+	
+	.price_txt .dollar {
+    line-height: 36px;
+    font-size: 36px;
+}
+
+.price_txt .numeric1 {
+    line-height: 36px;
+    font-size: 36px;
+}
+
+
+}
+
+@media screen and (max-width: 980px) {
+.sliderbox{
+	width:86%;
+}
+.price_content .smallbox2{
+	width:50%;
+	display:inline-block;
+	margin:20px auto 0;
+	float:none;
+}
+.price_content .smallbox{
+	width:22.5%;
+}
+.price_content #bandwidth_val{
+	margin:0 !important;
+}
+}
+@media screen and (max-width: 960px) {
+.sliderbox{
+		width:100%;
+	}
+	/*.slider-container #slider{
+		background:#333;
+		border-radius:10px;
+	}
+	/*.slider-container #slider .ui-slider-range{
+		background:#30d4b4;
+		border-radius:10px;
+	}*/
+	.slider-container #slider .ui-slider-handle{
+		margin-left:-10px;
+	}
+}
+@media screen and (max-width: 840px) {
+	.price_rangetxt{
+		display:blcok;
+	}
+	.price_content .smallbox {
+    width: 23%;
+    margin: 0 2% 0 0 !important;
+}
+#bandwidth_val {
+	margin:0;
+	}
+	.slider-container {
+		padding:70px  2%;
+		
+		}
+}
+@media screen and (max-width: 667px) {
+.price_content .smallbox{
+	width:48%;
+	margin:0 2% 2% 0px  !important;
+}
+
+.price_rangetxt div.icon {
+    margin: 0px 8% 0 0;
+}
+.price_content .smallbox2 {
+	
+	width:100%;
+	}
+
+.box{
+	margin:0 0 10px;
+	width:92%;
+}
+.box:last-child{
+	margin:0px;
+}
+.vps-features{
+	padding:40px 2%;
+}
+.mainbox h1{
+	font-size:26px;
+	line-height:28px;
+}
+}
+
+
+@media screen and (max-width: 580px) {
+	
+.price_rangetxt div.icon {
+    margin: 0px 6% 0 0;
+}
+div#icon-0 {
+    margin-left: 110px;
+}
+
+.slider-container #slider {
+	display:none;
+	}	
+div#icon-0 {
+	margin-left:0;
+	}
+.slider-container {
+	padding:40px 2%;
+	}
+.vps_btn {
+    display: inline-block;
+    width: 40%;
+    height: 40px;
+}
+.vps_btn a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    background: #0d79c2;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'proxima_nova_rgbold';
+    border-radius: 4px;
+}
+.price_content .smallbox2 {
+	min-height:auto;}
+	}
+
+
+@media screen and (max-width: 480px) {
+.price_content .smallbox{
+	width:100%;
+}
+.price_content .smallbox2{
+	width:96%;
+}
+}
+@media screen and (max-width: 400px) {  
+
+.price_rangetxt div.icon {
+    margin: 0px 2% 0 0;
+}
+}

@@ -1,0 +1,78 @@
+.stacktable.large-only { display: table; }
+.stacktable.small-only { display: none; }
+/*****************************************/
+.ssl_table {
+	margin:0px;
+	background:#fff;
+}
+.ssl_table > thead > tr > th{
+	vertical-align:middle;
+	font-size:20px;
+	line-height:20px;
+	color:#fff;
+	border:none;
+	padding:20px 10px;
+	text-align:center;
+	 font-family: 'brandon_textmedium';
+	 border-right:1px solid #38b68e;
+}
+.ssl_table > tbody > tr > td{
+	vertical-align:middle;
+	font-size:16px;
+	padding:18px 20px;
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+	border-top:none;
+	color:#777;
+}
+.ssl_table > tbody > tr > td .fa{
+	width:30px;
+	color:#3cc297;
+}
+.ssl_table > tbody > tr > td:first-child{
+	text-align:left;
+	width:300px;
+	padding:0px;
+}
+.ssl_table > tbody > tr:last-child > td{
+	border-bottom:none;
+	border-right:1px solid #38b68e;
+}
+.ssl_table > tbody > tr > td a{
+	display:block;
+}
+.ssl_table > tbody > tr > td a:hover{
+	color:#fff;
+}
+
+.ssl_table > tbody > tr:nth-child(even), .table-striped > tbody > tr:nth-of-type(2n+1){
+	background:#fff;
+}
+.ssl_table > tbody > tr > td.price{
+	font-size:24px;
+}
+@media screen and (max-width: 800px) {
+  .stacktable.large-only { display: none; }
+  .stacktable.small-only { display: table; }
+.ssl_table > tbody > tr > th.st-head-row{
+	line-height:60px;
+}
+.ssl_table > tbody > tr > td:first-child{
+	width:50%;
+	padding:0 20px;
+	font-weight:bold;
+	color:#000;
+	border-left:1px solid #eee;
+}
+.ssl_table > tbody > tr > th.st-head-row{
+	padding:0 20px ;
+	color:#57c23c;
+	border:1px solid #eee;
+}
+.ssl_table > tbody > tr > th.st-head-row-main{
+	display:none;
+}
+.ssl_table > tbody > tr:last-child > td{
+	border-bottom:1px  solid #eee;
+	border-right: 1px solid #eee;
+}

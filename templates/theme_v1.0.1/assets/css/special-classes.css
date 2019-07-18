@@ -1,0 +1,158 @@
+
+.light_font{
+	 font-family: 'ProximaNovaLight';
+}
+.semibold_font{
+	 font-family: 'proxima_novasemibold';
+}
+.bold_font{
+	  font-family: 'proxima_nova_rgbold';
+}
+.regular_font{
+	 font-family: 'proxima_nova_rgregular';
+}
+.extrabold_font{
+	 font-family: 'proxima_novaextrabold';
+}
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.black_text{
+	color:#ec7211;
+}
+.white_text{
+	color:#fff;
+}
+.yellow_text{
+	color:#faa747 !important;
+}
+.yellow_bg{
+	background-color:#faa747 !important;
+}
+.green_text{
+	color:#ec7211 !important;
+}
+.green_bg{
+	background-color:#ec7211 !important;
+}
+.white_bg{
+	background-color:#fff !important;
+}
+.pink_bg{background:#f07297;}
+
+.blue_bg{background:#40a8ef;}
+.blue_text{
+    color:#0d79c2 !important;
+}
+
+
+
+
+.slider_blackbg{
+	background:#0e1217;}
+
+
+
+.black_bg{
+	background-color:#000 !important;
+}
+
+.LightGrey_bg{
+	background-color:#232f3e !important;
+}
+
+.relative_con{
+	position:relative;
+}
+.no-Marginrt{
+	margin-right:0 !important;
+}
+.no-Marginbtm{
+	margin-bottom:0 !important;
+}
+.v_align{
+	display:table-cell;
+	vertical-align:middle;
+}
+.padding_eighty{
+	padding-top:80px;
+	padding-bottom:80px;
+}
+.padding_seventy{
+	padding:70px 0;
+}
+.padding_sixty {
+    padding: 60px 0;
+    
+}
+
+.padding_thirty{
+	padding:30px 0;
+	}
+.padding_fifty{
+	padding:50px 0;
+	}
+.padding_hundred{
+	padding:100px 0;
+}
+.no_padding{
+	padding-left:0px;
+	padding-right:0px;
+}
+.border{
+	float:left;
+	width:100%;
+	border-top:2px solid #ddd;
+}
+.spacer90{
+	float:left;
+	height:90px;
+	width:100%;
+}
+.p_size{
+	font-size:18px;
+	line-height:30px;
+}
+.half_width2{
+	width:48%;
+}
+.no_paddingtop{
+	padding-top:0px !important;
+}
+.no_padding-left{
+	padding-left:0;
+	}
+.no_padding-right{
+	padding-right:0
+	}
+@media screen and (max-width: 991px){
+.padding_eighty{
+	padding-top:60px;
+	padding-bottom:60px;
+}
+}
+@media screen and (max-width: 767px){
+.padding_seventy{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.padding_hundred{
+	padding-top:60px;
+	padding-bottom:60px;
+}
+}
+@media screen and (max-width: 667px){
+.padding_eighty, .padding_seventy{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.padding_sixty, .padding_hundred{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+}

@@ -1,0 +1,1291 @@
+products:Array
+(
+    [1] => Array
+        (
+            [1] => Array
+                (
+                    [pid] => 1
+                    [gid] => 1
+                    [type] => hostingaccount
+                    [name] => Basic
+                    [description] => <ul>
+  <li>1 Website</li>
+  <li>Unlimited Bandwidth</li>
+  <li>Unlimited Email</li>
+  <li>100 GB Redudant Storage</li>
+</ul>
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => -1.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 35.99
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => 541.08
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [13] => Array
+                (
+                    [pid] => 13
+                    [gid] => 1
+                    [type] => hostingaccount
+                    [name] => Platinium
+                    [description] => <ul>
+  <li>1 Website</li>
+  <li>Unlimited Bandwidth</li>
+  <li>Unlimited Email</li>
+  <li>100 GB Redudant Storage</li>
+</ul>
+
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 450.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [pid] => 4
+                    [gid] => 1
+                    [type] => hostingaccount
+                    [name] => Glod
+                    [description] => <ul>
+  <li>1 Website</li>
+  <li>Unlimited Bandwidth</li>
+  <li>Unlimited Email</li>
+  <li>100 GB Redudant Storage</li>
+</ul>
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 95.09
+                                    [quarterly] => 200.00
+                                    [semiannually] => 300.00
+                                    [annually] => 541.08
+                                    [biennially] => 4.00
+                                    [triennially] => 5.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [7] => Array
+                (
+                    [pid] => 7
+                    [gid] => 2
+                    [type] => reselleraccount
+                    [name] => Small
+                    [description] => <ul><li>20 GB of Storage</li><li>250 GB of Bandwidth</li><li>30 Hosted Websites</li><li>24/7 Email + LiveChat Support</li></ul>
+                    [module] => 
+                    [paytype] => onetime
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => -1.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 15.99
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [pid] => 8
+                    [gid] => 2
+                    [type] => reselleraccount
+                    [name] => Medium
+                    [description] => <ul><li>20 GB of Storage</li><li>250 GB of Bandwidth</li><li>30 Hosted Websites</li><li>24/7 Email + LiveChat Support</li></ul>
+                    [module] => 
+                    [paytype] => onetime
+                    [pricing] => Array
+                        (
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 25.99
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [pid] => 9
+                    [gid] => 2
+                    [type] => reselleraccount
+                    [name] => Large
+                    [description] => <ul><li>20 GB of Storage</li><li>250 GB of Bandwidth</li><li>30 Hosted Websites</li><li>24/7 Email + LiveChat Support</li></ul>
+                    [module] => 
+                    [paytype] => onetime
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => -1.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 45.99
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [10] => Array
+                (
+                    [pid] => 10
+                    [gid] => 3
+                    [type] => server
+                    [name] => Linux Dedicated-2
+                    [description] => <ul>
+    <li><span>Xeon E3-1230v2 4x 3.2GHz</span></li>
+<li>16GB DDR3 ECC Memory</li>
+<li>3x 750GB HDD Raid</li>
+<li>100Mbps Uplink Port</li>
+<li>2000GB Monthly Transfer</li>
+<li>Remote Power Cycle</li>
+</ul>
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => -1.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 230.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [name] => Ram
+                                            [type] => 1
+                                            [options] => Array
+                                                (
+                                                    [option] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [id] => 5
+                                                                    [name] => + 0 MB
+                                                                    [recurring] => 
+                                                                    [pricing] => Array
+                                                                        (
+                                                                            [USD] => Array
+                                                                                (
+                                                                                    [msetupfee] => 0.00
+                                                                                    [qsetupfee] => 0.00
+                                                                                    [ssetupfee] => 0.00
+                                                                                    [asetupfee] => 0.00
+                                                                                    [bsetupfee] => 0.00
+                                                                                    [tsetupfee] => 0.00
+                                                                                    [monthly] => 0.00
+                                                                                    [quarterly] => 0.00
+                                                                                    [semiannually] => 0.00
+                                                                                    [annually] => 0.00
+                                                                                    [biennially] => 0.00
+                                                                                    [triennially] => 0.00
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [id] => 1
+                                                                    [name] => +500 MB
+                                                                    [recurring] => 
+                                                                    [pricing] => Array
+                                                                        (
+                                                                            [USD] => Array
+                                                                                (
+                                                                                    [msetupfee] => 0.00
+                                                                                    [qsetupfee] => 0.00
+                                                                                    [ssetupfee] => 0.00
+                                                                                    [asetupfee] => 0.00
+                                                                                    [bsetupfee] => 0.00
+                                                                                    [tsetupfee] => 0.00
+                                                                                    [monthly] => 5.00
+                                                                                    [quarterly] => 0.00
+                                                                                    [semiannually] => 0.00
+                                                                                    [annually] => 0.00
+                                                                                    [biennially] => 0.00
+                                                                                    [triennially] => 0.00
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [id] => 2
+                                                                    [name] => +1 GB
+                                                                    [recurring] => 
+                                                                    [pricing] => Array
+                                                                        (
+                                                                            [USD] => Array
+                                                                                (
+                                                                                    [msetupfee] => 0.00
+                                                                                    [qsetupfee] => 0.00
+                                                                                    [ssetupfee] => 0.00
+                                                                                    [asetupfee] => 0.00
+                                                                                    [bsetupfee] => 0.00
+                                                                                    [tsetupfee] => 0.00
+                                                                                    [monthly] => 5.00
+                                                                                    [quarterly] => 0.00
+                                                                                    [semiannually] => 0.00
+                                                                                    [annually] => 3.00
+                                                                                    [biennially] => 0.00
+                                                                                    [triennially] => 0.00
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 2
+                                            [name] => Drive
+                                            [type] => 1
+                                            [options] => Array
+                                                (
+                                                    [option] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [id] => 6
+                                                                    [name] => + 0 GB
+                                                                    [recurring] => 
+                                                                    [pricing] => Array
+                                                                        (
+                                                                            [USD] => Array
+                                                                                (
+                                                                                    [msetupfee] => 0.00
+                                                                                    [qsetupfee] => 0.00
+                                                                                    [ssetupfee] => 0.00
+                                                                                    [asetupfee] => 0.00
+                                                                                    [bsetupfee] => 0.00
+                                                                                    [tsetupfee] => 0.00
+                                                                                    [monthly] => 0.00
+                                                                                    [quarterly] => 0.00
+                                                                                    [semiannually] => 0.00
+                                                                                    [annually] => 0.00
+                                                                                    [biennially] => 0.00
+                                                                                    [triennially] => 0.00
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [id] => 3
+                                                                    [name] => 100 GB
+                                                                    [recurring] => 
+                                                                    [pricing] => Array
+                                                                        (
+                                                                            [USD] => Array
+                                                                                (
+                                                                                    [msetupfee] => 0.00
+                                                                                    [qsetupfee] => 0.00
+                                                                                    [ssetupfee] => 0.00
+                                                                                    [asetupfee] => 0.00
+                                                                                    [bsetupfee] => 0.00
+                                                                                    [tsetupfee] => 0.00
+                                                                                    [monthly] => 15.00
+                                                                                    [quarterly] => 0.00
+                                                                                    [semiannually] => 0.00
+                                                                                    [annually] => 10.00
+                                                                                    [biennially] => 0.00
+                                                                                    [triennially] => 0.00
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [id] => 4
+                                                                    [name] => 200 GB
+                                                                    [recurring] => 
+                                                                    [pricing] => Array
+                                                                        (
+                                                                            [USD] => Array
+                                                                                (
+                                                                                    [msetupfee] => 0.00
+                                                                                    [qsetupfee] => 0.00
+                                                                                    [ssetupfee] => 0.00
+                                                                                    [asetupfee] => 0.00
+                                                                                    [bsetupfee] => 0.00
+                                                                                    [tsetupfee] => 0.00
+                                                                                    [monthly] => 20.00
+                                                                                    [quarterly] => 0.00
+                                                                                    [semiannually] => 0.00
+                                                                                    [annually] => 15.00
+                                                                                    [biennially] => 0.00
+                                                                                    [triennially] => 0.00
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [11] => Array
+                (
+                    [pid] => 11
+                    [gid] => 3
+                    [type] => server
+                    [name] => Linux Dedicated-1
+                    [description] => <ul>
+<li><span>Xeon E3-1230v2 4x 3.2GHz</span></li>
+<li>4GB DDR3 ECC Memory</li>
+<li>2x 750GB HDD Raid</li>
+<li>100Mbps Uplink Port</li>
+<li>2000GB Monthly Transfer</li>
+<li>Remote Power Cycle</li>
+</ul>
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => -1.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 170.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [20] => Array
+                (
+                    [pid] => 20
+                    [gid] => 3
+                    [type] => server
+                    [name] => Linux Dedicated-3
+                    [description] =>  <ul>
+    <li><span>2x Xeon E5-2603 8x 1.8GHz</span></li>
+<li>16GB DDR3 ECC Memory</li>
+<li>2x 750GB HDD Raid</li>
+<li>100Mbps Uplink Port</li>
+<li>5000GB Monthly Transfer</li>
+<li>Remote Power Cycle</li>
+</ul>
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => -1.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 285.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [21] => Array
+                (
+                    [pid] => 21
+                    [gid] => 3
+                    [type] => server
+                    [name] => Linux Dedicated-4
+                    [description] =>  <ul>
+    <li><span>2x Xeon E5-2620 12x 2.0GHz</span></li>
+<li>64GB DDR3 ECC Memory</li>
+<li>4x 750GB HDD Raid</li>
+<li>100Mbps Uplink Port</li>
+<li>10000GB Monthly Transfer</li>
+<li>Remote Power Cycle</li>
+</ul>
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => -1.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 585.00
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [14] => Array
+                (
+                    [pid] => 14
+                    [gid] => 4
+                    [type] => hostingaccount
+                    [name] => Plan 1
+                    [description] => CPU:1.0GHz
+RAM:512 MB
+STORAGE:10 GB
+Bandwidth:300 GB
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 1.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 1.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [15] => Array
+                (
+                    [pid] => 15
+                    [gid] => 4
+                    [type] => hostingaccount
+                    [name] => Plan 2
+                    [description] => CPU:2.0GHz
+RAM:1024 MB
+STORAGE:20 GB
+Bandwidth:500 GB
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 2.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => 0.00
+                                    [biennially] => -1.00
+                                    [triennially] => 0.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 2.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => 0.00
+                                    [biennially] => -1.00
+                                    [triennially] => 0.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [16] => Array
+                (
+                    [pid] => 16
+                    [gid] => 4
+                    [type] => hostingaccount
+                    [name] => Plan 3
+                    [description] => CPU:3.0GHz
+RAM:2048 MB
+STORAGE:40 GB
+Bandwidth:600 GB
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 3.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 3.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [17] => Array
+                (
+                    [pid] => 17
+                    [gid] => 4
+                    [type] => hostingaccount
+                    [name] => Plan 4
+                    [description] => CPU:4.0GHz<br />
+RAM:3072 MB<br />
+STORAGE:60 GB<br />
+Bandwidth:800 GB<br />
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 4.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 4.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [18] => Array
+                (
+                    [pid] => 18
+                    [gid] => 4
+                    [type] => hostingaccount
+                    [name] => Plan 5
+                    [description] => CPU:5.0GHz<br />
+RAM:4096 MB<br />
+STORAGE:100 GB<br />
+Bandwidth:1000 GB<br />
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 5.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 5.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [19] => Array
+                (
+                    [pid] => 19
+                    [gid] => 4
+                    [type] => hostingaccount
+                    [name] => Plan 6
+                    [description] => CPU:6.0GHz<br />
+RAM:5120 MB<br />
+STORAGE:200 GB<br />
+Bandwidth:2000 GB<br />
+                    [module] => 
+                    [paytype] => recurring
+                    [pricing] => Array
+                        (
+                            [EUR] => Array
+                                (
+                                    [prefix] => €
+                                    [suffix] => EUR
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 6.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                            [USD] => Array
+                                (
+                                    [prefix] => $
+                                    [suffix] =>  USD
+                                    [msetupfee] => 0.00
+                                    [qsetupfee] => 0.00
+                                    [ssetupfee] => 0.00
+                                    [asetupfee] => 0.00
+                                    [bsetupfee] => 0.00
+                                    [tsetupfee] => 0.00
+                                    [monthly] => 6.48
+                                    [quarterly] => -1.00
+                                    [semiannually] => -1.00
+                                    [annually] => -1.00
+                                    [biennially] => -1.00
+                                    [triennially] => -1.00
+                                )
+
+                        )
+
+                    [customfields] => Array
+                        (
+                            [customfield] => Array
+                                (
+                                )
+
+                        )
+
+                    [configoptions] => Array
+                        (
+                            [configoption] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

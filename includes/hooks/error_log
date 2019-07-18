@@ -1,0 +1,1 @@
+[11-Nov-2016 21:11:13 UTC] PHP Fatal error:  Call to undefined function add_hook() in /home/akdesign/public_html/whmcs-themes/includes/hooks/FeatchProducts.php on line 36
